@@ -25,7 +25,7 @@ public class Main {
         } else if ((A>=6) && (A>=Ga)) {
             System.out.println("Gano el Equipo A");
             // Gano el a
-        } else if((A <= 6) && (B <= 6))  {
+        } else if((A <= 6) && (B <= 6)&&(A>=0)&&(B>=0))  {
             System.out.println("el juego aun no termina");
             //EL juego no ha terminado
         } else if (A == 5) {
