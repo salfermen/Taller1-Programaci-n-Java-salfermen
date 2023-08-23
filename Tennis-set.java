@@ -11,7 +11,7 @@ public class Main {
         int Gb = A + 2;
         int Ga = B + 2;
         if (A > 6 || B  > 6) {
-            System.out.println("opcion invalida");
+            System.out.println("La opción ingresada es inválida");
         } else if ((A==5) && (B ==5)) {
             System.out.println("Empate 5 a 5");
             //empate 5 a 5
@@ -20,18 +20,18 @@ public class Main {
             //empate 6 a 6
         }
         else if ((B >=6) && (B >=Gb)) {
-            System.out.println("gano el equipo b");
+            System.out.println("Ganó el equipo B");
             // Gano el b
         } else if ((A>=6) && (A>=Ga)) {
-            System.out.println("Gano el Equipo A");
+            System.out.println("Ganó el Equipo A");
             // Gano el a
         } else if((A <= 6) && (B <= 6)&&(A>=0)&&(B>=0))  {
-            System.out.println("el juego aun no termina");
+            System.out.println("El juego aún no termina");
             //EL juego no ha terminado
         } else if (A == 5) {
             // Código para la variable A igual a 5
         } else {
-            System.out.println("opcion invalida");
+            System.out.println("La opción ingresada es inválida");
         }
     }
 }
